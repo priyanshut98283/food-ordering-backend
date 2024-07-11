@@ -1,0 +1,550 @@
+{
+  "labels": [
+    {
+      "id": "vegetarian wraps",
+      "label": "vegetarian wraps"
+    },
+    {
+      "id": "pizza",
+      "label": "pizza"
+    },
+    {
+      "id": "drinks",
+      "label": "drinks"
+    },
+    {
+      "id": "burgers",
+      "label": "burgers"
+    },
+    {
+      "id": "pasta",
+      "label": "pasta"
+    },
+    {
+      "id": "tikka",
+      "label": "tikka"
+    },
+    {
+      "id": "curry",
+      "label": "curry"
+    },
+    {
+      "id": "sandwich",
+      "label": "sandwich"
+    },
+    {
+      "id": "salads",
+      "label": "salads"
+    }
+  ],
+  "meals": [
+    {
+      "id": "meal1",
+      "title": "Vegetarian Wraps",
+      "starter": "Garlic Bread",
+      "desert": "Brownie",
+      "price": 12.99,
+      "labels": ["vegetarian wraps"],
+      "img": "https://images.pexels.com/photos/6758378/pexels-photo-6758378.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Lemonade",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Iced Tea",
+          "price": 3.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Cold Coffee",
+          "price": 4.99
+        }
+      ],
+      "selected": true,
+      "selectedDrink": null,
+      "selectedDrinks": ["drink-1", "drink-2", "drink-3"]
+    },
+    {
+      "id": "meal2",
+      "title": "Veggie delight salads",
+      "starter": "Salad",
+      "desert": "Fruit Salad",
+      "price": 10.99,
+      "labels": ["salads"],
+      "img": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Orange Juice",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Apple Juice",
+          "price": 3.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Smoothie",
+          "price": 4.99
+        }
+      ],
+      "selected": true,
+      "selectedDrink": null,
+      "selectedDrinks": ["drink-1", "drink-2"]
+    },
+    {
+      "id": "meal3",
+      "title": "Paneer Tikka",
+      "starter": "Hummus and Pita",
+      "desert": "Gulab Jamun",
+      "price": 14.99,
+      "labels": ["tikka"],
+      "img": "https://media.istockphoto.com/id/177314242/photo/vegetable-pakora.jpg?b=1&s=612x612&w=0&k=20&c=qeJ42GmhrzkswlJV6E5z_6tkPr0yDx9xSfQjvNuxdwY=",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Mango Lassi",
+          "price": 3.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Buttermilk",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 1.99
+        }
+      ],
+      "selected": true,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal4",
+      "title": "Vegetarian Pasta",
+      "starter": "Bruschetta",
+      "desert": "Tiramisu",
+      "price": 13.99,
+      "labels": ["pasta"],
+      "img": "https://images.pexels.com/photos/226004/pexels-photo-226004.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Sparkling Water",
+          "price": 1.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Nimbu pani",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Mango juice",
+          "price": 5.99
+        }
+      ],
+      "selected": true,
+      "selectedDrink": null,
+      "selectedDrinks": ["drink-2"]
+    },
+    {
+      "id": "meal5",
+      "title": "Falafel Wrap",
+      "starter": "Tabbouleh",
+      "desert": "Baklava",
+      "price": 11.99,
+      "labels": ["vegetarian wraps"],
+      "img": "https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Mint Lemonade",
+          "price": 3.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Ayran",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Herbal Tea",
+          "price": 2.99
+        }
+      ],
+      "selected": true,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal6",
+      "title": "Vegetarian Sushi",
+      "starter": "Miso Soup",
+      "desert": "Mochi",
+      "price": 15.99,
+      "labels": ["drinks"],
+      "img": "https://images.pexels.com/photos/990439/pexels-photo-990439.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Green Tea",
+          "price": 1.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Sake",
+          "price": 4.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Fruit cuttlet",
+          "price": 5.99
+        }
+      ],
+      "selected": true,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal7",
+      "title": "Vegetarian Chatpata Salads",
+      "starter": "Fries",
+      "desert": "Ice Cream",
+      "price": 9.99,
+      "labels": ["salads"],
+      "img": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Soda",
+          "price": 1.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Milkshake",
+          "price": 3.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Lemonade",
+          "price": 2.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal8",
+      "title": "Margherita Pizza",
+      "starter": "Caprese Salad",
+      "desert": "Cannoli",
+      "price": 11.99,
+      "labels": ["pizza"],
+      "img": "https://images.pexels.com/photos/22135136/pexels-photo-22135136/free-photo-of-slice-of-pizza-on-a-plate.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Coffee",
+          "price": 5.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Iced Tea",
+          "price": 3.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Sparkling Water",
+          "price": 1.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal9",
+      "title": "Veggie Curry",
+      "starter": "Guacamole",
+      "desert": "Churros",
+      "price": 10.99,
+      "labels": ["curry"],
+      "img": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Margarita",
+          "price": 6.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Horchata",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Lemonade",
+          "price": 2.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal10",
+      "title": "Vegetarian Burrito drink",
+      "starter": "Nachos",
+      "desert": "Flan",
+      "price": 12.99,
+      "labels": ["drinks"],
+      "img": "https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Sangria",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Agua Fresca",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Cold drink",
+          "price": 3.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal11",
+      "title": "Vegetarian Curry",
+      "starter": "Samosa",
+      "desert": "Kheer",
+      "price": 13.99,
+      "labels": ["curry"],
+      "img": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Mango Lassi",
+          "price": 3.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Buttermilk",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 1.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal12",
+      "title": "Vegetarian Stir-fry sandwich",
+      "starter": "Spring Rolls",
+      "desert": "Fortune Cookies",
+      "price": 11.99,
+      "labels": ["sandwich"],
+      "img": "https://images.pexels.com/photos/133578/pexels-photo-133578.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Green Tea",
+          "price": 1.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Bubble Tea",
+          "price": 3.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Soy Milk",
+          "price": 2.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal13",
+      "title": "Caprese Sandwich",
+      "starter": "Soup",
+      "desert": "Gelato",
+      "price": 10.99,
+      "labels": ["sandwich"],
+      "img": "https://images.pexels.com/photos/1209029/pexels-photo-1209029.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Italian Soda",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Espresso",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 5.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal14",
+      "title": "Veggie burger",
+      "starter": "Soup",
+      "desert": "Gelato",
+      "price": 10.99,
+      "labels": ["burgers"],
+      "img": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Italian Soda",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Espresso",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 5.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal15",
+      "title": "Paneer Burger",
+      "starter": "Soup",
+      "desert": "Gelato",
+      "price": 10.99,
+      "labels": ["burgers"],
+      "img": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Italian Soda",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Espresso",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 5.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal16",
+      "title": "Caprese Pasta",
+      "starter": "Soup",
+      "desert": "Gelato",
+      "price": 10.99,
+      "labels": ["pasta"],
+      "img": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Italian Soda",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Espresso",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 5.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null,
+      "selectedDrinks": []
+    },
+    {
+      "id": "meal17",
+      "title": "Malai Tikka",
+      "starter": "Soup",
+      "desert": "Gelato",
+      "price": 10.99,
+      "labels": ["tikka"],
+      "img": "https://media.istockphoto.com/id/1987660013/photo/saag-aloo-is-a-classic-indian-style-side-dish-featuring-potatoes-fried-in-spices-and-spinach.jpg?b=1&s=612x612&w=0&k=20&c=NFnUtq0-4u4VetXullfZkX-DgVzWjAIIt4tmVaAKIdM=",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Italian Soda",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Espresso",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 5.99
+        }
+      ],
+      "selected": false,
+      "selectedDrink": null
+    },
+    {
+      "id": "meal18",
+      "title": "Paneer Pizza",
+      "starter": "Soup",
+      "desert": "Gelato",
+      "price": 10.99,
+      "labels": ["pizza"],
+      "img": "https://images.pexels.com/photos/1552635/pexels-photo-1552635.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Italian Soda",
+          "price": 2.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Espresso",
+          "price": 2.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Chai",
+          "price": 5.99
+        }
+      ],
+      "selected": true,
+      "selectedDrink": null
+    }
+  ]
+}
